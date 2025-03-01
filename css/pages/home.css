@@ -1,0 +1,78 @@
+.personal-title,
+.tech-stack-title,
+.portfolio-project-title {
+  font-size: clamp(0.8rem, 1.6vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sub-title {
+  margin-block: 1rem;
+  color: var(--dark-content);
+  font-size: clamp(0.6rem, 1.8vw, 2rem);
+}
+.personal-intro-text {
+  font-size: clamp(0.6rem, 1.4vw, 1.4rem);
+}
+.personal-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#avatar1 {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
+#avatar2 {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
+.personal-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: clamp(0.6rem, 1.6vw, 1.6rem);
+  padding-inline: 1em;
+}
+.under-header-line {
+  width: 100%;
+  display: block;
+  margin-block: 10px;
+  background: linear-gradient(to right, var(--gradient));
+}
+.under-header-line span {
+  display: block;
+  height: 3px;
+}
+
+.tech-stack-icon img {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+.personal-title {
+  margin-bottom: 5rem;
+}
+.portfolio-main {
+  margin-top: 1rem;
+}
+.portfolio-about {
+  margin-top: 10rem;
+}
+.tech-stack-title {
+  margin-top: 10rem;
+}
+.portfolio-tech-stack {
+  margin-top: 20rem;
+}
+.portfolio-project-title {
+  margin-top: 10rem;
+}
+.tech-stack-list {
+  margin-top: 10rem;
+}

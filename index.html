@@ -1,144 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/portfolioHeader.css">
-    <link rel="stylesheet" href="styles/aboutMe.css">
-</head>
-<body>
-<!-- Portfolio Header Section -->
-<header class="portfolio-header">
-    <h1 class="portfolio-logo">Kaing Bunly</h1>
-    <nav class="header-nav">
-        <ul class="nav-links">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#TechStack">Tech Stack</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Google Fonts- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Portfolio Header  -->
+    <header class="portfolio-header">
+      <div class="portfolio-logo"><img src="assets/images/icons/user.png" alt=""></div>
+      <nav class="header-nav">
+          <!-- hamburger menu open -->
+        <button class="hamburger-menu-button-open" aria-label="open sidebar" aria-expanded="true" aria-controls="sidebar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="sidebar" role="navigation"  >
+          <!-- hamburger menu close -->
+          <li>
+            <button class="hamburger-menu-button-close" aria-label="close sidebar" aria-expanded="false" >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#TechStack">Tech Stack</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
-    </nav>
-    <div class="portfolio-social-links">
-        <a target="_blank" href="https://github.com/Lyxing9999"><img src="assets/images/social-links/github.png" alt="Git Hub Link"></a>
-        <a href="https://www.linkedin.com/in/kaing-bunly-150b2033a"><img src="assets/images/social-links/linkedin.png" alt="Linkedin Link"></a>
-        <a target="_blank" href="https://t.me/kaingbunly"><img id="telegram_jpg" src="assets/images/social-links/telegram.png" alt="Telegram Link"></a>
-        <a target="_blank" href="https://www.facebook.com/share/15xk1ZLmWD/?mibextid=wwXIfr"><img src="assets/images/social-links/facebook.png" alt="Facebook Link"></a>
-        <button class="hamburger-menu-button" ><img id="hamburger-icon" src="assets/images/icons/burger-bar.png" alt="Burger Bar Icon"></button>
-    </div>
-</header>
-<!-- Main Content Section -->
-<main>
-    <!-- About Section -->
-    <section class="personal-intro">
-        <span>Hi 👋, I'm Kaing Bunly</span>
-        <h1>I build powerful web experiences</h1>
-        <p class="personal-intro-text">
-            A Front-End Developer with a passion for writing clean, efficient code and crafting seamless, high-performance websites.  
-            I thrive on logic, precision, and problem-solving—turning ideas into reality with HTML, CSS, and JavaScript.  
-            I’m currently building my back-end skills with Python to become a full-stack developer. Let’s build something amazing together!
-        </p>
-        <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatar">
-    </section>
-    <!-- Tech Stack Section -->
-    <section class="tech-stack" id="tech-stack" >
-        <div class="portfolio-tech-stack" >
-            <h1>MY TECH STACK</h1>
-            <h3>Technologies I’ve Been Working With Recently</h3>
+      </nav>
+      <div class="portfolio-social-links">
+        <a target="_blank" href="https://github.com/Lyxing9999"
+          ><img src="assets/images/social-links/github.png" alt="Git Hub Link"
+        /></a>
+        <a href="https://www.linkedin.com/in/kaing-bunly-150b2033a"
+          ><img
+            src="assets/images/social-links/linkedin.png"
+            alt="Linkedin Link"
+        /></a>
+        <a target="_blank" href="https://t.me/kaingbunly"
+          ><img
+            id="telegram_jpg"
+            src="assets/images/social-links/telegram.png"
+            alt="Telegram Link"
+        /></a>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="portfolio-main" >
+      <!-- Home Page personal intro -->
+        <div class="personal-intro">
+            <!-- Home Page personal title -->
+          <div class="personal-title">
+            <h1 class="title">Hi 👋, I'm <span class="gradient-text">Kaing Bunly</span></h1>
+            <h2>A Front-End developer</h2>
+          </div>
+          <div class="personal-image">
+            <img
+              id="avatar1"
+              src="assets/images/avatar.jpg"
+              alt="Kaing Bunly Avatar" />
+          </div>
         </div>
-        <ul class="tech-stack-list" >
-            <li class="tech-stack-icon html-icon" ><img src="assets/images/svg/html.svg"  alt="Html Icon"></li>
-            <li class="tech-stack-icon css-icon" ><img src="assets/images/svg/css.svg" alt="Css Icon"></li>
-            <li class="tech-stack-icon javascript-icon" ><img src="assets/images/svg/javascript.svg" alt="JavaScript Icon"></li>
-            <li class="tech-stack-icon vue-icon" ><img src="assets/images/svg/vue.svg" alt="Vue Icon"></li>
-            <li class="tech-stack-icon python-icon" ><img src="assets/images/svg/python.svg" alt=""></li>
-            <li class="tech-stack-icon git-icon" ><img src="assets/images/svg/git.svg" alt="Git Icon"></li>
-            <li class="tech-stack-icon flask-icon" ><img src="assets/images/svg/flask.svg" alt="Flask icon"></li>
-            <li class="tech-stack-icon netlify-icon " ><img src="assets/images/svg/netlify.svg" alt="Netlify-Icon"></li>
-        </ul>
-    </section>
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-            <h1 class="section-title">Projects</h1>
-            <span>Things I've build so far</span>
-        <div class="projects-container" >
-            <div class="project-item">
-                <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart">
-                <div>
-                    <h3>Data Visualization</h3>
-                    <p>This is a simple data visualization project that implements real-time data using Matplotlib and connects with an API. The front-end uses HTML, CSS, and JavaScript for UI/UX design, with Vue.js for interactivity and Flask for the back-end API integration.</p>
-                    <span><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js, Python, Flask</span>
-                </div>
+        <!--Home Page personal about -->
+        <div class="portfolio-about">
+          <div class="personal-image">
+            <img id="avatar2" src="assets/images/avatar.jpg" alt="Kaing Bunly Avatar" />
+          </div>
+          <div class="personal-about">
+            <h2>About
+            </h2>
+            <!-- under-header-line-style -->
+            <div class="under-header-line"><span></span></div>
+            <!-- Home Page personal intro text -->
+            <div class="personal-intro-text">
+              <p class="intro-text"> I'm Kaing Bunly, a passionate Front-End Developer dedicated to building seamless, high-performance websites. With expertise in HTML, CSS, and JavaScript, I specialize in crafting intuitive, responsive, and accessible user interfaces that enhance user experience across all devices. I take pride in writing clean, efficient code and solving complex problems with precision, creativity, and strong debugging skills. </p> <p class="intro-text"> Currently, I'm expanding my expertise into back-end development with Python to become a full-stack developer. I thrive on collaboration and continuous learning, always striving to refine my logic and debugging techniques to create innovative digital solutions. Let's bring your ideas to life and build something remarkable together! </p>
+              </div>
             </div>
-            <div class="project-item">
-                <img src="assets/images/avatar.jpg" alt="Avatart Of Kaing Bunly">
-                <div>
-                    <h3>Data Visualization</h3>
-                    <p>This is a simple data visualization project that implements real-time data using Matplotlib and connects with an API. The front-end uses HTML, CSS, and JavaScript for UI/UX design, with Vue.js for interactivity and Flask for the back-end API integration.</p>
-                    <span><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js, Python, Flask</span>
-                </div>
-            </div>
-            <div class="project-item">
-                <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart">
-                <div>
-                    <h3>Data Visualization</h3>
-                    <p>This is a simple data visualization project that implements real-time data using Matplotlib and connects with an API. The front-end uses HTML, CSS, and JavaScript for UI/UX design, with Vue.js for interactivity and Flask for the back-end API integration.</p>
-                    <span><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js, Python, Flask</span>
-                </div>
-            </div>
-            <div class="project-item">
-                <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart">
-                <div>
-                    <h3>Data Visualization</h3>
-                    <p>This is a simple data visualization project that implements real-time data using Matplotlib and connects with an API. The front-end uses HTML, CSS, and JavaScript for UI/UX design, with Vue.js for interactivity and Flask for the back-end API integration.</p>
-                    <span><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js, Python, Flask</span>
-                </div>
-            </div>
-        </div>
+          </div>
 
-    </section>
-</main>
-<!-- Footer -->
-<footer class="portfolio-footer" >
-    <div class="footer-main" >
-        <img id="personal-logo" src="/assets/images/icons/user.png" alt="User Icon">
-        <!-- Contact Info -->
-        <div class="contact-info" >
-            <a href="tel:011415050">+011415050</a>
-            <a href="mailto:kaingbunly9999@gmail.com">kaingbunly9999@gmail.com</a>
-            <div class="footer-social">
-                <a href="#"><img src="assets/images/social-links/github.png" alt="Git Hub Link"></a>
-                <a href="#"><img src="assets/images/social-links/linkedin.png" alt="Linkedin Link"></a>
-                <a href="#"><img src="assets/images/social-links/telegram.png" alt="Telegram Link"></a>
-                <a href="#"><img src="assets/images/social-links/facebook.png" alt="Facebook Link"></a>
-            </div>
+
+        <!-- Portfolio Tech Stack  -->
+      <div class="portfolio-tech-stack">
+        <!-- Tech Stack title -->
+        <div class="tech-stack-title">
+          <h3 class="title" >MY TECH STACK</h3>
+          <h4 class="sub-title" >Technologies I’ve Been Working With Recently</h4>
         </div>
+        <!-- Tech Stack list icons -->
+         <div class="tech-stack">
+          <ul class="tech-stack-list">
+            <li class="tech-stack-icon html-icon">
+              <img src="assets/images/svg/html.svg" alt="Html Icon" />
+            </li>
+            <li class="tech-stack-icon css-icon">
+              <img src="assets/images/svg/css.svg" alt="Css Icon" />
+            </li>
+            <li class="tech-stack-icon javascript-icon">
+              <img src="assets/images/svg/javascript.svg" alt="JavaScript Icon" />
+            </li>
+            <li class="tech-stack-icon vue-icon">
+              <img src="assets/images/svg/vue.svg" alt="Vue Icon" />
+            </li>
+            <li class="tech-stack-icon python-icon">
+              <img src="assets/images/svg/python.svg" alt="" />
+            </li>
+            <li class="tech-stack-icon git-icon">
+              <img src="assets/images/svg/git.svg" alt="Git Icon" />
+            </li>
+            <li class="tech-stack-icon flask-icon">
+              <img src="assets/images/svg/flask.svg" alt="Flask icon" />
+            </li>
+            <li class="tech-stack-icon netlify-icon">
+              <img src="assets/images/svg/netlify.svg" alt="Netlify Icon" />
+            </li>
+            
+            <li class="tech-stack-icon mongodb-icon">
+              <img src="assets/images/svg/mongodb.svg" alt="MongoDB Icon" />
+            </li>
+            <li class="tech-stack-icon vs-code-icon">
+              <img src="assets/images/svg/vs-code.svg" alt="Vs-code Icon" />
+            </li>
+            <li class="tech-stack-icon git-hub-icon">
+              <img src="assets/images/svg/git-hub.svg" alt="Git-Hub Icon" />
+            </li>
+            <li class="tech-stack-icon scss-icon">
+              <img src="assets/images/svg/Sass.svg" alt="SCSS Icon" />
+            </li>
+          </ul>
+         </div>
+
+      </div>
+
+   <!-- Portfolio Project  -->
+    <div class="project">
+      <!-- Projects title-->
+      <div class="portfolio-project-title">
+        <h3 class="title">Projects</h3>
+        <h4 class="sub-title" >Things I've build so far</h4>
+      </div>
+      <!-- project items -->
+      <div class="projects-container">
+        <div class="project-item">
+          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
+          <div>
+            <h3>Data Visualization</h3>
+            <p>
+              This is a simple data visualization project that implements
+              real-time data using Matplotlib and connects with an API. The
+              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
+              Vue.js for interactivity and Flask for the back-end API
+              integration.
+            </p>
+            <span
+            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
+            Python, Flask</span
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/images/avatar.jpg" alt="Avatart Of Kaing Bunly" />
+          <div>
+            <h3>Data Visualization</h3>
+            <p>
+              This is a simple data visualization project that implements
+              real-time data using Matplotlib and connects with an API. The
+              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
+              Vue.js for interactivity and Flask for the back-end API
+              integration.
+            </p>
+            <span
+            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
+            Python, Flask</span
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
+          <div>
+            <h3>Data Visualization</h3>
+            <p>
+              This is a simple data visualization project that implements
+              real-time data using Matplotlib and connects with an API. The
+              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
+              Vue.js for interactivity and Flask for the back-end API
+              integration.
+            </p>
+            <span
+            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
+            Python, Flask</span
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
+          <div>
+            <h3>Data Visualization</h3>
+            <p>
+              This is a simple data visualization project that implements
+              real-time data using Matplotlib and connects with an API. The
+              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
+              Vue.js for interactivity and Flask for the back-end API
+              integration.
+            </p>
+            <span
+            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
+            Python, Flask</span
+            >
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Footer Navigation Links -->
-    <div class="footer-nav" >
-        <ul class="footer-links" >
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Technologies">Technologies</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    </main>
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+      <div class="footer-main">
+        <img
+          id="personal-logo"
+          src="/assets/images/icons/user.png"
+          alt="User Icon" />
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <a href="tel:011415050">+011415050</a>
+          <a href="mailto:kaingbunly9999@gmail.com">kaingbunly9999@gmail.com</a>
+          <div class="footer-social">
+            <a href="#"
+              ><img
+                src="assets/images/social-links/github.png"
+                alt="Git Hub Link"
+            /></a>
+            <a href="#"
+              ><img
+                src="assets/images/social-links/linkedin.png"
+                alt="Linkedin Link"
+            /></a>
+            <a href="#"
+              ><img
+                src="assets/images/social-links/telegram.png"
+                alt="Telegram Link"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Navigation Links -->
+      <div class="footer-nav">
+        <ul class="footer-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Technologies">Technologies</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
-    </div>
-    <!-- CV Download Section -->
-     <div class="footer-cv">
+      </div>
+      <!-- CV Download -->
+      <div class="footer-cv">
         <a href="assets/files/KaingBunly_CV.pdf" download="KaingBunly_CV.pdf">
-            <button> Download My CV<img src="assets/images/icons/downloading.png"></button>
+          <button>
+            Download My CV<img src="assets/images/icons/downloading.png" />
+          </button>
         </a>
-     </div>
-    <!-- Footer Copyright -->
-     <div class="footer-copyright">
+      </div>
+      <!-- Footer Copyright -->
+      <div class="footer-copyright">
         <p>&copy; 2025 Kaing Bunly. All Rights Reserved.</p>
-     </div>
-</footer>
-<!-- script -->
-<script src="scripts/main.js"></script>
-<script src="scripts/porfolioHeader.js"></script>
-</body>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/menuBar.js" defer></script>
+    </script>
+  </body>
+
 </html>

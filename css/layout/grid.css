@@ -1,0 +1,38 @@
+.personal-intro,
+.portfolio-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.portfolio-about {
+  grid-template-columns: 40% 1fr;
+}
+
+.tech-stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.tech-stack-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 100px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-block: 2rem;
+}

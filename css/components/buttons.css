@@ -1,0 +1,50 @@
+.hamburger-menu-button-open {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 30px;
+  height: 30px;
+  margin-left: 1em;
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+.hamburger-menu-button-open span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+}
+.hamburger-menu-button-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  /* display: flex; */
+  flex-direction: column;
+  gap: 5px;
+  padding: 7px;
+  margin: auto;
+  display: none;
+}
+.hamburger-menu-button-close span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  transition: all 0.7s ease;
+}
+.hamburger-menu-button-close.delay span:nth-child(1) {
+  background-color: white;
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger-menu-button-close.delay span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-menu-button-close.delay span:nth-child(3) {
+  background-color: white;
+  transform: rotate(-45deg) translate(5px, -5px);
+}

@@ -1,0 +1,12 @@
+:root {
+  --dark-content: #666666;
+  --solid-header: #42446e;
+  --gradient: #13b0f5, #e70faa;
+}
+body {
+  font-size: 0.5rem;
+}
+
+.portfolio-main {
+  transition: all 0.36s ease;
+}

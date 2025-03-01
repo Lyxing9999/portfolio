@@ -1,0 +1,51 @@
+.portfolio-header {
+  position: static;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  top: 0px;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.portfolio-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  transition: opacity 0.3s ease;
+}
+.header-nav {
+  width: min(800px, 68%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.nav-links a {
+  padding: 1em 2em;
+  color: var(--dark-content);
+  transition: background-color 150ms ease;
+}
+.nav-links a:hover {
+  background-color: aqua;
+}
+.portfolio-social-links {
+  width: min(300px, 30%);
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolio-social-links img {
+  width: 100%;
+  max-width: 35px;
+  height: auto;
+  object-fit: contain;
+  margin: 10px;
+}

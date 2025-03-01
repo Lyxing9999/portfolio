@@ -1,0 +1,22 @@
+img {
+  width: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--solid-header);
+}
+p {
+  color: var(--dark-content);
+}
+button {
+  cursor: pointer;
+}
+.gradient-text {
+  background: linear-gradient(to right, var(--gradient));
+  -webkit-background-clip: text;
+  color: transparent;
+}
