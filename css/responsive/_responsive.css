@@ -59,6 +59,12 @@
     transition: left 300ms ease;
   }
   .personal-title {
+    margin-top: 12rem;
+  }
+  .portfolio-about {
+    margin-top: 6rem;
+  }
+  #avatar2 {
     margin-top: 6rem;
   }
   .personal-intro,
@@ -126,6 +132,15 @@
   }
   .portfolio-social-links {
     width: 100%;
+  }
+  .portfolio-tech-stack {
+    margin-top: 8rem;
+  }
+  .portfolio-project-title {
+    margin-top: 8rem;
+  }
+  .tech-stack-list {
+    margin-top: 4rem;
   }
 }
 @media (max-width: 420px) {
