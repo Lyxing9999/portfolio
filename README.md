@@ -1,9 +1,11 @@
 <<<<<<< HEAD
+
 # portfolio
+
 =======
 Kaing Bunly's Portfolio
 
-Welcome to my online portfolio! I’m Kaing Bunly, a passionate and motivated Full-Stack Web Developer. This portfolio highlights my skills, projects, and experiences with technologies like Vue.js, Flask, MongoDB, JavaScript, HTML, CSS, and more.
+> > > > > > > Welcome to my online portfolio! I’m Kaing Bunly, a passionate and motivated Full-Stack Web Developer. This portfolio highlights my skills, projects, and experiences with technologies like Vue.js, Flask, MongoDB, JavaScript, HTML, CSS, and more.
 
 You can explore my work, view the projects I've built, and learn more about the skills I’ve developed throughout my learning journey.
 
@@ -102,4 +104,5 @@ GitHub: kaingbunly
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> f026736 (Complete portfolio)
+
+> > > > > > >
