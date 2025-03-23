@@ -57,21 +57,24 @@ How to Run Locally
 
 To run my portfolio locally, follow these steps:
 
-	1.	Clone the repository:
-     git clone   https://github.com/kaingbunly/portfolio.git
+1. Clone the repository:
+   git clone      https://github.com/kaingbunly/portfolio.git
 
 
- 	2.	Navigate into the project directory:
+2. Navigate into the project directory:
 
     cd portfolio
-
-	3.	Install dependencies:
+    
+3. Install dependencies:
 
      npm install
 
-	4.	Run the development server:
+4. Run the development server:
+   
      npm run serve
-     5. 	Open your browser and visit
+   
+5. Open your browser and visit
+   
      http://localhost:8080/     
 
 
