@@ -49,7 +49,7 @@ A dynamic weather dashboard that provides current weather information, a 7-day f
 
 Portfolio
 
-This portfolio itself, built with Vue.js, showcases my skills, projects, and achievements. It is designed to be responsive and easy to navigate.
+This portfolio itself, built with HTML, CSS, and JavaScript, showcases my skills, projects, and achievements. It is designed to be responsive and easy to navigate.
 
 ⸻
 How to Run Locally
