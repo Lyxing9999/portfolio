@@ -1,5 +1,5 @@
 .portfolio-header {
-  position: static;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -15,30 +15,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 125px;
+  width: 100px;
   transition: opacity 0.3s ease;
 }
+.portfolio-logo:hover {
+  cursor: pointer;
+}
+
+.portfolio-logo img {
+  width: 28px;
+  height: auto;
+  object-fit: contain;
+}
+
 .header-nav {
   width: min(800px, 68%);
   position: relative;
   display: flex;
   justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
 }
+
 .nav-links {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
+
 .nav-links a {
-  padding: 1em 2em;
   color: var(--dark-content);
-  transition: background-color 150ms ease;
+  transition:
+    background-color 150ms ease,
+    color 150ms ease;
 }
+
 .nav-links a:hover {
-  background-color: aqua;
+  color: #007bff;
 }
+
 .portfolio-social-links {
-  width: min(300px, 30%);
+  width: min(250px, 30%);
   display: flex;
   justify-content: space-evenly;
 }

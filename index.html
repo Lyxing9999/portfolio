@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Portfolio Header  -->
-    <header class="portfolio-header">
+    <header class="portfolio-header" id="Home">
       <div class="portfolio-logo"><img src="assets/images/icons/user.png" alt=""></div>
       <nav class="header-nav">
           <!-- hamburger menu open -->
@@ -24,21 +24,22 @@
           <span></span>
           <span></span>
         </button>
-        <ul class="nav-links" id="sidebar" role="navigation"  >
+        <ul class="nav-links" id="sidebar" role="navigation">
           <!-- hamburger menu close -->
           <li>
-            <button class="hamburger-menu-button-close" aria-label="close sidebar" aria-expanded="false" >
+            <button class="hamburger-menu-button-close" aria-label="close sidebar" aria-expanded="false">
               <span></span>
               <span></span>
               <span></span>
             </button>
           </li>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
+          <li><a href="#About">About</a></li> <!-- Fixed the missing <li> tag -->
           <li><a href="#TechStack">Tech Stack</a></li>
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
+        
       </nav>
       <div class="portfolio-social-links">
         <a target="_blank" href="https://github.com/Lyxing9999"
@@ -74,7 +75,7 @@
           </div>
         </div>
         <!--Home Page personal about -->
-        <div class="portfolio-about">
+        <div class="portfolio-about" id="About">
           <div class="personal-image">
             <img id="avatar2" src="assets/images/avatar.jpg" alt="Kaing Bunly Avatar" />
           </div>
@@ -92,11 +93,11 @@
 
 
         <!-- Portfolio Tech Stack  -->
-      <div class="portfolio-tech-stack">
+      <div class="portfolio-tech-stack" id="TechStack">
         <!-- Tech Stack title -->
         <div class="tech-stack-title">
           <h3 class="title" >MY TECH STACK</h3>
-          <h4 class="sub-title" >Technologies I’ve Been Working With Recently</h4>
+          <h4 class="sub-title" >Technologies I've Been Working With Recently</h4>
         </div>
         <!-- Tech Stack list icons -->
          <div class="tech-stack">
@@ -144,7 +145,7 @@
       </div>
 
    <!-- Portfolio Project  -->
-    <div class="project">
+    <div class="project" id="Projects">
       <!-- Projects title-->
       <div class="portfolio-project-title">
         <h3 class="title">Projects</h3>
@@ -153,78 +154,48 @@
       <!-- project items -->
       <div class="projects-container">
         <div class="project-item">
-          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
+          <img src="assets/images/project-snapshot/kaingbunly-site.png" alt="Kaing Bunly Site - Advanced Weather Dashboard" />
           <div>
-            <h3>Data Visualization</h3>
+            <h3>🌦️ Advanced Weather Dashboard</h3>
             <p>
-              This is a simple data visualization project that implements
-              real-time data using Matplotlib and connects with an API. The
-              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
-              Vue.js for interactivity and Flask for the back-end API
-              integration.
+              *Kaingbunly.site* is an advanced weather dashboard that integrates a weather API with real-time city search functionality. 🌍 The app allows users to search cities and view up-to-date weather information in an instant. 
+              Built using Vue 3 ⚡, JavaScript 💻, and CSS3 🎨, the dynamic UI ensures a smooth and responsive user experience across devices. API calls are optimized for better performance 🚀, reducing unnecessary re-renders and speeding up data loading.
+              The design follows a clean, modern aesthetic with a blue-gray theme 🌊 and Poppins font for a polished, readable interface.
             </p>
-            <span
-            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
-            Python, Flask</span
-            >
+            <h4>📊 Performance Highlights</h4>
+            <ul>
+              <li>⚡ Performance: 100</li>
+              <li>🔑 Accessibility: 100</li>
+              <li>✅ Best Practices: 93</li>
+              <li>📈 SEO: 90</li>
+              <li>⏱️ FCP: 0.2s</li>
+              <li>📊 LCP: 0.3s</li>
+              <li>⚡ TBT: 10ms</li>
+              <li>🌟 CLS: 0</li>
+              <li>💨 Speed Index: 0.4s</li>
+            </ul>
+            <span><strong>Tech Stack:</strong> Vue 3, JavaScript, CSS3</span>
+            <div class="project-links">
+              <a
+                href="https://kaingbunly.site"
+                target="_blank"
+                class="project-link"
+                >View Website</a
+              >
+              <a
+                href="https://github.com/Lyxing9999/weather"
+                target="_blank"
+                class="project-link"
+                >View Code</a
+              >
+            </div>
           </div>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/avatar.jpg" alt="Avatart Of Kaing Bunly" />
-          <div>
-            <h3>Data Visualization</h3>
-            <p>
-              This is a simple data visualization project that implements
-              real-time data using Matplotlib and connects with an API. The
-              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
-              Vue.js for interactivity and Flask for the back-end API
-              integration.
-            </p>
-            <span
-            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
-            Python, Flask</span
-            >
-          </div>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
-          <div>
-            <h3>Data Visualization</h3>
-            <p>
-              This is a simple data visualization project that implements
-              real-time data using Matplotlib and connects with an API. The
-              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
-              Vue.js for interactivity and Flask for the back-end API
-              integration.
-            </p>
-            <span
-            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
-            Python, Flask</span
-            >
-          </div>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/avatar.jpg" alt="Kaing Bunly Avatart" />
-          <div>
-            <h3>Data Visualization</h3>
-            <p>
-              This is a simple data visualization project that implements
-              real-time data using Matplotlib and connects with an API. The
-              front-end uses HTML, CSS, and JavaScript for UI/UX design, with
-              Vue.js for interactivity and Flask for the back-end API
-              integration.
-            </p>
-            <span
-            ><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Vue.js,
-            Python, Flask</span
-            >
-          </div>
-        </div>
+        </div>        
       </div>
     </div>
     </main>
     <!-- Footer -->
-    <footer class="portfolio-footer">
+    <footer class="portfolio-footer" id="Contact">
       <div class="footer-main">
         <img
           id="personal-logo"
@@ -235,33 +206,23 @@
           <a href="tel:011415050">+011415050</a>
           <a href="mailto:kaingbunly9999@gmail.com">kaingbunly9999@gmail.com</a>
           <div class="footer-social">
-            <a href="#"
+            <a target="_blank" href="https://github.com/Lyxing9999"
               ><img
                 src="assets/images/social-links/github.png"
                 alt="Git Hub Link"
             /></a>
-            <a href="#"
+            <a href="https://www.linkedin.com/in/kaing-bunly-150b2033a"
               ><img
                 src="assets/images/social-links/linkedin.png"
                 alt="Linkedin Link"
             /></a>
-            <a href="#"
+            <a target="_blank" href="https://t.me/kaingbunly"
               ><img
                 src="assets/images/social-links/telegram.png"
                 alt="Telegram Link"
             /></a>
           </div>
         </div>
-      </div>
-      <!-- Footer Navigation Links -->
-      <div class="footer-nav">
-        <ul class="footer-links">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Technologies">Technologies</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
       </div>
       <!-- CV Download -->
       <div class="footer-cv">

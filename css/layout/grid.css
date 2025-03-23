@@ -5,20 +5,17 @@
   width: 100%;
 }
 .portfolio-about {
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 42% 1fr;
 }
 
 .tech-stack-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 20px;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -26,13 +23,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 100px;
+  flex: 50px;
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-block: 2rem;
+  padding: 30px;
+}
+
+.portfolio-footer {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  color: #333;
+  text-align: center;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }

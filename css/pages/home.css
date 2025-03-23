@@ -14,7 +14,7 @@
   font-size: clamp(0.6rem, 1.8vw, 2rem);
 }
 .personal-intro-text {
-  font-size: clamp(0.6rem, 1.4vw, 1.4rem);
+  font-size: clamp(0.7rem, 1.4vw, 1.6rem);
 }
 .personal-image {
   display: flex;
@@ -50,29 +50,228 @@
   height: 3px;
 }
 
+.project-item {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-item img {
+  width: 80%;
+  max-width: 300px;
+  margin: 2rem;
+  border-radius: 8px;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-describe {
+  padding: 1rem;
+}
+
+.project-describe h3 {
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.project-describe h4 {
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.project-describe ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.project-describe ul li {
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.project-describe span {
+  font-weight: bold;
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  color: #333;
+}
+
+.project-describe p {
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
 .tech-stack-icon img {
-  width: 40px;
-  height: auto;
+  width: auto;
+  height: 40px;
   object-fit: contain;
 }
-.personal-title {
-  margin-bottom: 5rem;
+
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
+
+.project-link {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: rem;
+  font-weight: 500;
+  display: inline-block;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.project-link:active {
+  transform: translateY(1px);
+}
+
+#personal-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-social a {
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-nav {
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.footer-links li a:hover {
+  color: #007bff;
+}
+
+.footer-cv {
+  margin-bottom: 2rem;
+}
+
+.footer-cv button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-cv button img {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-cv button:hover {
+  background-color: #0056b3;
+}
+
+.footer-copyright {
+  font-size: 0.7rem;
+  color: #777;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+
 .portfolio-main {
   margin-top: 1rem;
 }
+.personal-title {
+  margin-top: 5rem;
+}
+.personal-title {
+  margin-bottom: 8rem;
+}
 .portfolio-about {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 .tech-stack-title {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 .portfolio-tech-stack {
-  margin-top: 20rem;
+  margin-top: 5rem;
 }
 .portfolio-project-title {
   margin-top: 10rem;
 }
 .tech-stack-list {
   margin-top: 10rem;
+}
+#avatar2 {
+  margin-top: 2rem;
+}
+#avatar1 {
+  margin-top: 2rem;
 }

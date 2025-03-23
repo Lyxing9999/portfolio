@@ -33,14 +33,16 @@
   }
 }
 
-@media (max-width: 550px) {
-  body {
+@media (max-width: 500px) {
+  main,
+  footer {
     padding: 10px;
   }
   .nav-links {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: center;
     padding: 1em 2em;
     position: fixed;
     top: 0;
@@ -56,12 +58,16 @@
     border-bottom-right-radius: 10px;
     transition: left 300ms ease;
   }
-  .nav-links.open {
-    left: 0;
+  .personal-title {
+    margin-top: 6rem;
   }
   .personal-intro,
-  .personal-about {
+  .portfolio-about {
     grid-template-columns: 1fr;
+  }
+
+  .nav-links.open {
+    left: 0;
   }
   main.menu-open,
   footer.menu-open {
@@ -78,7 +84,9 @@
     justify-content: flex-start;
     padding-left: 1rem;
   }
-
+  .personal-about {
+    order: -1;
+  }
   .nav-links li {
     margin-block: 2em;
   }
@@ -89,24 +97,28 @@
   }
   .hamburger-menu-button-open {
     display: flex;
+    margin: auto;
+    align-self: center;
   }
   .hamburger-menu-button-close {
     display: flex;
+    margin: auto;
   }
+
   .about {
     justify-content: flex-start;
     align-items: flex-start;
-    order: -1;
     padding-left: 1em;
   }
 
   .personal-title {
-    font-size: clamp(0.5rem, 4vw, 2.5rem);
+    font-size: clamp(0.5rem, 4vw, 2.3rem);
     text-align: center;
   }
-  #avatar {
+  #avatar1,
+  #avatar2 {
     width: 96%;
-    border-radius: 10px;
+    border-radius: 30px;
   }
   .tech-stack-list {
     grid-template-columns: repeat(4, 1fr);
