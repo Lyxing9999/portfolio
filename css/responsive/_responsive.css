@@ -31,6 +31,15 @@
   .tech-stack-icon img {
     width: 50px;
   }
+  .portfolio-tech-stack {
+    margin-top: 8rem;
+  }
+  .portfolio-project-title {
+    margin-top: 8rem;
+  }
+  .tech-stack-list {
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -132,15 +141,6 @@
   }
   .portfolio-social-links {
     width: 100%;
-  }
-  .portfolio-tech-stack {
-    margin-top: 8rem;
-  }
-  .portfolio-project-title {
-    margin-top: 8rem;
-  }
-  .tech-stack-list {
-    margin-top: 4rem;
   }
 }
 @media (max-width: 420px) {
