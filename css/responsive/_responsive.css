@@ -40,6 +40,17 @@
   .tech-stack-list {
     margin-top: 4rem;
   }
+  .footer-links li a {
+    font-size: 0.75rem;
+  }
+
+  .footer-cv button {
+    font-size: 0.85rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.65rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -141,6 +152,17 @@
   }
   .portfolio-social-links {
     width: 100%;
+  }
+  .footer-links li a {
+    font-size: 0.7rem;
+  }
+
+  .footer-cv button {
+    font-size: 0.8rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 420px) {
