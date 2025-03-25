@@ -1,6 +1,6 @@
 Kaing Bunly’s Portfolio
 
-Welcome to my online portfolio! I’m Kaing Bunly, a passionate and motivated Full-Stack Web Developer. This portfolio highlights my skills, projects, and experiences with technologies like Vue.js, Flask, MongoDB, JavaScript, HTML, CSS, and more.
+Welcome to my online portfolio! I’m Kaing Bunly, a passionate and motivated Full-Stack Web Developer. This portfolio highlights my skills, projects, and experiences with technologies like Vue.js, JavaScript, HTML, CSS, and more.
 
 You can explore my work, view the projects I’ve built, and learn more about the skills I’ve developed throughout my learning journey.
 
@@ -26,10 +26,9 @@ Check out my projects and feel free to reach out if you have any questions or co
 Technologies Used
 
 Here are the main technologies I’ve worked with on this portfolio:
-	•	Front-End: Vue.js (Composition API), HTML, CSS, JavaScript
-	•	Back-End: Flask, MongoDB
-	•	Deployment: Netlify, GitHub
-	•	Tools: Git, GitHub, VS Code, Yarn
+	•	Front-End: Vue.js (Composition API), HTML, CSS, 
+	•	Deployment: Netlify, GitHub,aws(amplify)
+	•	Tools: Git, GitHub, VS Code, npm
 
 ⸻
 
