@@ -54,36 +54,33 @@ This portfolio itself, built with HTML, CSS, and JavaScript, showcases my skills
 How to Run Locally
 
 
-To run my portfolio locally, follow these steps:
+To run my portfolio:
 
 1. Clone the repository:
-   git clone      https://github.com/kaingbunly/portfolio.git
-
+   
+ git clone 
+ https://github.com/kaingbunly/portfolio.git
 
 2. Navigate into the project directory:
 
-    cd portfolio
-    
-3. Install dependencies:
+cd portfolio
 
-     npm install
+3. No dependencies to install 
 
-4. Run the development server:
-   
-     npm run serve
-   
-5. Open your browser and visit
-   
-     http://localhost:8080/     
+since it’s a simple HTML/CSS/JS project, no need to run npm install.
 
+4. Open the index.html file in your browser:
 
+Double-click index.html, or open it from your browser using file:///path/to/your/portfolio/index.html.
+
+5. View your portfolio locally in your browser.
 
   Contact
 
 If you would like to get in touch with me, feel free to contact me through the form on the portfolio or reach out via my social profiles:
 	•	Email: kaingbunly9999@gmail.com
-	•	LinkedIn: Kaing Bunly
-	•	GitHub: kaingbunly
+	•	LinkedIn: https://www.linkedin.com/in/kaing-bunly-150b2033a
+	•	GitHub: https://github.com/Lyxing9999
 
 ⸻
 
